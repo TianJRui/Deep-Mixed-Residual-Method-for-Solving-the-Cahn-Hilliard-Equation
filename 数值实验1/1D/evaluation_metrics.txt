@@ -1,0 +1,18 @@
+实验1：混合残量模型 vs 标准PINN —— 评估指标汇总
+==================================================
+t = 0.0: L2 Error (Std vs Mixed) = 3.259e-03
+t = 2.5: L2 Error (Std vs Mixed) = 1.368e-01
+t = 5.0: L2 Error (Std vs Mixed) = 2.510e-01
+t = 10.0: L2 Error (Std vs Mixed) = 4.162e-01
+
+质量守恒最大偏差（去均值后）:
+  Mixed Residual PINN: 6.790e-03
+  Standard PINN:       3.913e-01
+
+模型参数量:
+  Mixed Residual PINN: 2,105,346 (u + μ networks)
+  Standard PINN:       1,052,673
+
+训练时间:
+  Mixed Residual PINN: 757.90 s
+  Standard PINN:       670.30 s

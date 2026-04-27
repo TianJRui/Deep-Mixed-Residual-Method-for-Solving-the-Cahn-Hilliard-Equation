@@ -1,0 +1,14 @@
+实验1（2D）：Cahn-Hilliard方程 —— 混合残量模型 vs 标准PINN
+============================================================
+Final Time L2 Error (Std vs Mixed) = 5.446e-03
+  Mixed Residual PINN: 2,760,706 (u + μ networks)
+  Standard PINN:       1,380,353
+
+Training Time:
+  Mixed Residual PINN: 4903.19 s
+  Standard PINN:       22966.44 s
+
+Hyperparameter:
+  λ_bc = 1.0, λ_ic = 100.0
+  ε = 0.01
+  Domain: [0,1]×[0,1], T = 10.0
